@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Ship Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class='container'>
+        <h1 id='heading'>Battleship</h1>
+        <div class='rules-div'>
+            <h3 id='rules-heading'>Game Rules</h3>
+            <ol class='rules-ol'>
+                <li id='rule-1' class='rules-li'>Click on the cells to reveal the image hidden behind them.</li>
+                <li id='rule-1' class='rules-li'>There are 5 ships hidden in the game.</li>
+                <li id='rule-1' class='rules-li'>You win if you can find all ships in less than 8 clicks, else you lose.
+                </li>
+            </ol>
+        </div>
+        <div class='game-area'>
+            <div id='grid-11' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-12' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-13' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-14' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-21' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-22' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-23' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-24' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-31' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-32' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-33' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-34' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-41' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-42' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-43' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+            <div id='grid-44' class='grid-box grid-box-hover'><img src='#' alt='' class='hidden images'></div>
+        </div>
+        <button id='reset'>Reset</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

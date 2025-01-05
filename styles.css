@@ -1,0 +1,125 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: tomato;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#heading{
+	color: white;
+	text-decoration: underline rgb(255, 150, 132);
+	margin-bottom: 20px;
+}
+
+.rules-div{
+	margin-bottom: 15px;
+	box-sizing: box-shadow;
+}
+
+.rules-li{
+	color: snow;
+}
+
+#rules-heading{
+	color: snow;
+	font-size: 25px;
+}
+
+.game-area{
+	height: 360px;
+	width: 360px;
+	box-sizing: border-box;
+	border: 1px solid snow;
+	display: grid;
+	grid-template-columns: 90px 90px 90px 90px;
+}
+
+.grid-box{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	height: 90px;
+	width: 90px;
+	border: 1px solid snow;
+}
+
+.grid-box-hover:hover{
+	transform: scale(1.13);
+}
+
+#reset{
+	box-sizing: border-box;
+	height: 40px;
+	width: 120px;
+	margin-top: 30px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	box-shadow: 8px 8px rgb(255, 141, 121);
+	font-weight: bold;
+	font-size: 15px;
+	transition-duration: 0.1s;
+}
+
+#reset:hover{
+	transform: scale(0.96);
+}
+
+img{
+	box-sizing: border-box;
+	height: 90px;
+	width: 90px;
+	opacity: 0.6;
+}
+
+.hidden{
+	display: none;
+}
+
+.mark-image{
+	opacity: 1;
+}
+
+dialog{
+	width: 200px;
+	height: 100px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#dialog-heading{
+	position: relative;
+	top: 10px;
+	margin: 0px;
+}
+
+#dialog-para{
+	align-self: center;
+	text-align: center; 
+}
+
+#dialog-button{
+	position: absolute;
+	bottom: 15px;
+	height: 30px;
+	width: 60px;
+	background-color: burlywood;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	box-shadow: 2px 2px rgb(190, 161, 122);
+}
